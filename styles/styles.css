@@ -95,6 +95,7 @@ main {
 .team-container {
     display: flex;
     align-items: center;
+    width: auto;
 }
 
 .team-img {
@@ -177,7 +178,8 @@ main {
     }
 
     nav,
-    .team-container {
+    .team-container,
+    .fact-card-container {
         flex-direction: column;
         padding: 0px;
     }
@@ -191,9 +193,15 @@ main {
         padding: 5px;
         margin-bottom: 30px;
     }
-
-    main {
+    .team-content-container{
+        margin: 0px auto;
         text-align: center;
+    }
+    .fact-card-container{
+        margin-top: 0px;
+    }
+    .fact-card{
+        margin: 15px;
     }
 }
 
@@ -210,17 +218,20 @@ main {
         flex-direction: column;
         padding: 0px;
     }
-
     nav>ul {
         padding-top: 20px;
     }
-
-    .team-img {
+    .team-img
+    {
         grid-template-columns: repeat(2, 1fr);
-        padding: 0px 50px 40px 50px;
+        padding-left: 0px;
+        margin-bottom: 40px;
     }
-
     main {
         text-align: center;
+    }
+    .fact-card-container{
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
