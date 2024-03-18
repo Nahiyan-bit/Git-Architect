@@ -83,7 +83,7 @@ nav li a {
 
 main{
     max-width: 1400px;
-    margin: 0px auto;
+    margin: 50px auto;
 }
 
 .team-container{
@@ -124,13 +124,23 @@ main{
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .team-container {
         flex-direction: column;
-        padding: 20px 0px 0px 0px;
+        padding: 0px;
     }
-
+    
     nav>ul {
         padding-top: 20px;
+    }
+
+    .team-img{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+    main{
+        text-align: center;
     }
 }
 
@@ -142,12 +152,21 @@ main{
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .team-container {
         flex-direction: column;
-        padding: 20px 0px 0px 0px;
+        padding: 0px;
     }
 
     nav>ul {
         padding-top: 20px;
+    }
+
+    .team-img{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 50px 40px 50px;
+    }
+    main{
+        text-align: center;
     }
 }
