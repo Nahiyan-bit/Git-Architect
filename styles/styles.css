@@ -165,6 +165,19 @@ main {
     font-size: 14px;
     color: #AEAEAE;
 }
+.sponspors-container{
+    margin-top: 70px;
+    text-align: center;
+}
+.sponspors-img-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0px 150px;
+    
+}
+
+
 
 
 /* responsive media query */
@@ -179,7 +192,8 @@ main {
 
     nav,
     .team-container,
-    .fact-card-container {
+    .fact-card-container,
+    .sponspors-img-container {
         flex-direction: column;
         padding: 0px;
     }
@@ -202,6 +216,13 @@ main {
     }
     .fact-card{
         margin: 15px;
+    }
+    .sponspors-container{
+        margin-top: 0px;
+    }
+    .sponspors-img-container{
+        margin: 40px 200px;
+        gap: 30px;
     }
 }
 
@@ -233,5 +254,16 @@ main {
     .fact-card-container{
         flex-wrap: wrap;
         gap: 20px;
+    }
+    .sponspors-container{
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .sponspors-img-container{
+        margin: 0px 250px;
+        gap: 20px;
+        justify-content: center;
+        padding: 50px;
+        
     }
 }
