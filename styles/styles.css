@@ -16,6 +16,8 @@
 
 /* header style */
 
+/* Nav section */
+
 header {
     background-color: #FFF4E7;
     padding: 40px 220px;
@@ -46,3 +48,6 @@ nav li a {
     color: #424242;
     font-size: 16px;
 } 
+
+/* banner section */
+
