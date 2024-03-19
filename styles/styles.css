@@ -150,6 +150,31 @@ main {
 .feature-card-title{
     margin-bottom: 20px;
 }
+.feature-img-container img{
+    height: 88%;
+    margin-left: 40px;
+}
+.experience-container{
+   background-color: #FF900E;
+   margin: 0px;
+   padding: 20px;
+   color: #fff;
+   border-radius: 6px;
+   max-width: 250px;
+   text-align: center;
+   position: relative;
+   bottom: 100px;
+}
+.experience-title{
+    font-size: 2.5rem;
+    margin: 10px;
+}
+.experience-description{
+    font-size: 20px;
+    margin: 5px;
+    padding-bottom: 15px;
+
+}
 
 /* Some facts section */
 
