@@ -199,11 +199,22 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    padding-bottom: 0px;
     margin: 0px 150px;
     
 }
 
+/* Footer Container Section  */
 
+.footer-container{
+    max-width: 1000px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 80px auto;
+    padding: 35px;
+    font-weight: 500;
+    color: #424242;
+}
 
 
 /* responsive media query */
